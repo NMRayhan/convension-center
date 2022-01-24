@@ -179,5 +179,37 @@ button {
 
 /* footer style  */
 .footer{
-  
+  background-color: #0B0D17;
+}
+
+.copyright p{
+  color: #D9DBE1;
+}
+
+.apps-store-btn {
+  line-height: 20px;
+}
+.apps-store-btn button{
+  border: 1px solid #848199;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  border-radius: 15px;
+  width: 160px;
+}
+.apps-store-btn i{
+  position: absolute;
+  top: 10px;
+  bottom: 0px;
+  left: 0px;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+.apps-store-btn .lowe-case{
+  font-size: 10px;
+  margin-left: 20px;
+}
+.apps-store-btn .upper-case{
+  font-size: 20px;
+  margin-left: 20px;
 }
