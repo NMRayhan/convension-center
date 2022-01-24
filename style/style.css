@@ -1,0 +1,166 @@
+section > h2 {
+  font-family: Poppins;
+  color: #222221;
+  text-align: center;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 700px;
+}
+
+.moment-title {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-left: 8px solid #3f87f5;
+  padding: 10px 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 1px;
+}
+
+.popup .title {
+  font-size: 1.2em;
+  color: #505050;
+  font-family: Poppins;
+}
+
+.popup i {
+  color: #3f87f5;
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.moment-title h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: #0a0826;
+  font-size: 38px;
+}
+
+.moment-title p {
+  font-family: Poppins;
+  color: #6c6c6c;
+  font-weight: normal;
+}
+
+button {
+  font-family: Poppins;
+}
+
+/* package section css  */
+
+.package-item {
+  width: 300px;
+  padding: 10px;
+}
+
+.package-section h2 {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.package-item:hover {
+  background-color: #3f87f5;
+  transform: scale(1.1);
+  border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+}
+.package-item:hover .package-btn button {
+  background-color: #ffffff;
+}
+.package-item:hover .package-details i {
+  color: #5243c2;
+  background: #5293f6;
+  border-radius: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.package-item:hover .package-details ul li,
+.package-item:hover .pacakge-para p,
+.package-item:hover .package-price h3,
+.package-item:hover .package-title h3,
+.package-item:hover .package-details i {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.package-price h3,
+.package-title h3 {
+  color: #231d4f;
+  font-family: Roboto;
+  text-align: left;
+}
+
+.pacakge-para p {
+  color: #848199;
+  font-family: Poppins;
+}
+
+.package-details ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  color: #848199;
+}
+
+.package-details i {
+  color: #5243c2;
+  background: rgba(82, 67, 194, 0.103693);
+  border-radius: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.package-btn button {
+  border: none;
+  border-radius: 25px;
+  background-color: #fef5fa;
+  width: 100%;
+  height: 45px;
+  padding: 13px 0px;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #3f87f5;
+  margin-bottom: 15px;
+}
+
+/* feedback section css  */
+.feedback-section > h2 {
+  font-family: Poppins;
+  color: #222221;
+  text-align: center;
+}
+
+.card-details {
+  background: #ffffff;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  border: none;
+}
+
+.card-details p {
+  color: #6c6c6c;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
