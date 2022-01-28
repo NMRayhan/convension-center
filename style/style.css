@@ -17,22 +17,15 @@ a{
 }
 
 .popup {
-  position: absolute;
-  top: 0px;
-  right: 0px;
   border-left: 8px solid #3f87f5;
-  padding: 10px 15px;
-  margin-left: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background: #ffffff;
   box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.15);
   border-radius: 1px;
 }
 
 .popup .title {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #505050;
   font-family: Poppins;
 }
@@ -40,7 +33,7 @@ a{
 .popup i {
   color: #3f87f5;
   margin-right: 5px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .moment-title h2 {
@@ -213,3 +206,10 @@ button {
   font-size: 20px;
   margin-left: 20px;
 }
+/* .happy-moment{
+  transition: transform 2s;
+}
+.happy-moment:hover{
+  transform: scale(.7);
+
+} */
